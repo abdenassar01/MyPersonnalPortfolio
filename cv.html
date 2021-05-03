@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personnal Portfolio</title>
+    <link rel="stylesheet" href="./css/sass/style.css">
+    <link rel="stylesheet" href="./css/sass/cv.css">
+    <link rel="icon" href="./img/Man-PNG-File.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+    <div class="continner">
+
+        <!-- the navigation bar -->
+        <nav>
+             <a href="index.html"><h2 class="logo">
+                AbdeNassar
+            </h2></a>
+             <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="cv.html">CV</a></li>
+                 <li><a href="project.html">Project</a></li>
+                 <li><a href="contact.html">Contact Me</a></li>
+             </ul>
+             <div class="button">
+                <button id="dark" onclick="cvDark();">DarkMode</button>
+                <button id="light" onclick="cvLight();">lightMode</button>
+               </div>
+        </nav>
+            <!-- the content of the page  -->
+        <div class="content-cv">
+            <div class="plangueges card">
+                <img src="./img/programming-languages.jpg">
+                <p class="p-li">Programming Langages </p>
+                <ul>
+                    <li><img src="./img/code2.png" class="icon">  	&nbsp;Vb.net</li>
+                    <li><img src="./img/code2.png" class="icon">  	&nbsp;C</li>
+                    <li><img src="./img/code2.png" class="icon">  	&nbsp;HTML/CSS</li>
+                    <li><img src="./img/code2.png" class="icon">  	&nbsp;SQL</li>
+                </ul>
+            </div>
+            <div class="skills card">
+                <img src="./img/7-Ways-to-improve-your-programming-skills.jpg">
+                <p id=".p-li">Programming Skills </p>
+                <ul>
+                    <li><img src="./img/programmingicone2.png" class="icon">  	&nbsp;Creating static webpages</li>
+                    <li><img src="./img/programmingicone2.png" class="icon">  	&nbsp;Creating Simple Windows Formss</li>
+                    <li><img src="./img/programmingicone2.png" class="icon">  	&nbsp;Creating databases Using SQL Server</li>
+                    <li><img src="./img/programmingicone2.png" class="icon">  	&nbsp;Creating Console apps</li>
+                    <li><img src="./img/programmingicone2.png" class="icon">  	&nbsp;Managing Project On github</li>
+                </ul>
+            </div>
+            <div class="certificats card">
+                <img src="./img/Programming-Certifications-Laneways.Agency.jpeg">
+                <p>Certificats  </p>
+                <ul>
+                    <li><img src="./img/programmingicone3.png" class="icon">  	&nbsp;Bacaloreat</li>
+                    <li><img src="./img/programmingicone3.png" class="icon">  	&nbsp;C-Programming for eveyone <br> By universty of california santa cruz </li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
+.content-cv {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content-cv .card {
+  background-color: rgba(250, 249, 239, 0.922);
+  width: 400px;
+  height: 525px;
+  margin: 25px;
+  margin-top: 10px;
+}
+
+.content-cv .card img {
+  width: 400px;
+  height: 300px;
+}
+
+.content-cv .card p {
+  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.content-cv .card ul {
+  text-align: justify;
+  font-family: "Orelega One", cursive;
+  font-weight: bold;
+  font-size: 20px;
+  list-style: none;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.content-cv .card ul li .icon {
+  width: 20px;
+  height: auto;
+  position: relative;
+  top: 5px;
+}
+/*# sourceMappingURL=cv.css.map */
