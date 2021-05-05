@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&display=swap");
+.contentProject {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 7%;
+}
+
+.contentProject .cardProject {
+  width: 260px;
+  height: 430px;
+  background-color: #afeeee;
+  position: relative;
+  border-radius: 5px;
+  border: 2px #ffd700 solid;
+  -webkit-box-shadow: 1px 1px 8px white;
+          box-shadow: 1px 1px 8px white;
+}
+
+.contentProject .cardProject .imgProject {
+  width: 250px;
+}
+
+.contentProject .cardProject ul {
+  text-align: left;
+  margin-left: 7px;
+  list-style: none;
+  line-height: 25px;
+}
+
+.contentProject .cardProject ul li {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 17px;
+}
+/*# sourceMappingURL=Projet.css.map */

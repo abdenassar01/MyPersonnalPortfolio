@@ -135,25 +135,27 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 600px;
+  width: 640px;
   background-color: #14bb91;
+  border: black 1px solid;
 }
 
 .continner .content .me img {
-  width: 250px;
-  height: auto;
+  width: 290px;
+  height: 260px;
 }
 
 .continner .content .me p {
   color: rgb(255, 255, 255);
   font-size: 19px;
-  line-height: 40px;
+  line-height: 30px;
   margin-left: 10px;
   text-shadow: 1px 1px 1px black;
 }
 
 .continner .content .me p b {
   color: black;
+  font-weight: bold;
   text-shadow: none;
 }
 /*# sourceMappingURL=style.css.map */

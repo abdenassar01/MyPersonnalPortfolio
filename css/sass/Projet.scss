@@ -1,0 +1,34 @@
+@import "./variable.scss";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&display=swap");
+.contentProject {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 7%;
+
+  .cardProject {
+    width: 260px;
+    height: 430px;
+    background-color: #afeeee;
+    position: relative;
+    border-radius: 5px;
+    border: 2px #ffd700 solid;
+    box-shadow: 1px 1px 8px white;
+
+    .imgProject {
+      width: 250px;
+    }
+
+    ul {
+      text-align: left;
+      margin-left: 7px;
+      list-style: none;
+      line-height: 25px;
+
+      li {
+        font-family: "Noto Sans", sans-serif;
+        font-size: 17px;
+      }
+    }
+  }
+}
