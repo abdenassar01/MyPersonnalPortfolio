@@ -8,12 +8,12 @@
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 7%;
+  margin-top: 5%;
 }
 
 .contentProject .cardProject {
   width: 260px;
-  height: 430px;
+  height: 460px;
   background-color: #afeeee;
   position: relative;
   border-radius: 5px;
@@ -36,5 +36,31 @@
 .contentProject .cardProject ul li {
   font-family: "Noto Sans", sans-serif;
   font-size: 17px;
+}
+
+.contentProject .cardProject ul li b {
+  color: #3dfd56;
+  text-shadow: 1px 1px 1px black;
+  line-height: 30px;
+}
+
+.contentProject .cardProject a {
+  text-decoration: none;
+  font-family: "Orelega One", cursive;
+  right: 10px;
+  bottom: 6px;
+  color: #98a8a0;
+  background-color: red;
+  padding: 5px 10px;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.contentProject .cardProject a:hover {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  background-color: #07e47d;
+  color: #f8f8f8;
+  text-shadow: 1px 1px 0.5px black;
 }
 /*# sourceMappingURL=Projet.css.map */
